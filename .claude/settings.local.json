@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create vite@latest . -- --template react)",
+      "Bash(npm install:*)",
+      "Bash(timeout:*)",
+      "Bash(ping:*)",
+      "Bash(npx vite:*)",
+      "Bash(taskkill:*)",
+      "Bash(cmd.exe /c \"taskkill /IM node.exe /F\")"
+    ]
+  }
+}
